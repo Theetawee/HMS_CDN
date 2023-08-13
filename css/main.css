@@ -40,6 +40,7 @@
 	justify-content: center;
 	gap: 5px;
 	transition: background-color 0.3s;
+	text-decoration: none !important;
 }
 
 /* Hover effect: Darken the background color */
@@ -104,4 +105,13 @@
 }
 .footer-note a:hover{
 	text-decoration: underline;
+}
+.errorlist{
+	margin-top: 7px;
+	margin-bottom: 0;
+}
+.errorlist li{
+	font-size: .75rem;
+	color:#ef4444;
+	line-height: 14px;
 }
