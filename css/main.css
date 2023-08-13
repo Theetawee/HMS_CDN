@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+* {
+	font-family: "Open Sans", sans-serif !important;
+}
+
+:root {
+	--box: #64748b;
+	--main: #14b8a6;
+}
+
+/* Custom styles for form-control */
+.form-control {
+	border: 1px solid var(--box);
+	border-radius: 5px;
+	padding: 8px 12px;
+	font-size: 14px;
+	color: #333;
+	background-color: #f8f8f8;
+	box-shadow: none;
+	transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* On focus, change border color and add a slight shadow */
+.form-control:focus {
+	border-color: var(--main);
+	box-shadow: none;
+}
+
+/* Cool teal submit button design */
+.form-button {
+	background-color: #1abc9c;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	padding: 7px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+/* Hover effect: Darken the background color */
+.form-button:hover {
+	background-color: #16a085;
+}
+
+.card.module {
+	min-height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	margin-bottom: 30px;
+	text-align: center;
+    transition: .3s ease-in-out;
+}
+.card.module:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.418);
+}
+.card.module h5 {
+	margin-top: 20px;
+}
+
+.custom-primary-bg {
+	background-color: #007bff; /* Your custom primary color */
+}
+
+.custom-success-bg {
+	background-color: #28a745; /* Your custom success color */
+}
+
+.custom-info-bg {
+	background-color: #17a2b8; /* Your custom info color */
+}
+
+.custom-secondary-bg {
+	background-color: #6c757d; /* Your custom secondary color */
+}
+
+.custom-warning-bg {
+	background-color: #ffc107; /* Your custom warning color */
+}
+
+.custom-danger-bg {
+	background-color: #dc3545; /* Your custom danger color */
+}
