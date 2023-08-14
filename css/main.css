@@ -118,3 +118,24 @@
 .h-20{
 	height: 150px;
 }
+
+.total-value-card {
+  background-color: #d1fae5; /* Custom background color */
+  border: 1px solid #14b8a6; /* Custom border color */
+  border-radius: 10px;
+  padding: 15px; /* Padding around the content */
+}
+
+.total-value-card h5 {
+  color: #14b8a6; /* Custom title color */
+  font-size: 1.25rem; /* Custom title font size */
+  margin-bottom: 10px; /* Bottom margin for spacing */
+}
+
+.total-value-card p {
+  font-size: 1.5rem; /* Custom text font size */
+  font-weight: bold; /* Bold text */
+  margin: 0; /* Remove margin to align text with card edges */
+}
+
+
