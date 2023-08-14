@@ -138,4 +138,24 @@
   margin: 0; /* Remove margin to align text with card edges */
 }
 
+.custom-pagination .page-item {
+  border-radius: 0; /* Remove border radius */
+  margin: 0; /* Reset margin */
+}
+
+.custom-pagination .page-item:not(.active) a {
+  color: teal; /* Teal color for non-active links */
+}
+
+.custom-pagination .page-item.active a {
+  background-color: teal; /* Teal background color for active link */
+  border-color: teal; /* Teal border color for active link */
+  color: white; /* White text color for active link */
+}
+
+.custom-pagination .page-link {
+  font-size: 0.875rem; /* Smaller font size */
+  padding: 0.3rem 0.5rem; /* Adjust padding */
+}
+
 
