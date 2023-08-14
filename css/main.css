@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
 *{
 	font-family: 'IBM Plex Sans', sans-serif !important;
+	text-decoration: none !important;
 } 
 
 :root {
@@ -56,38 +57,50 @@
 	padding: 10px;
 	margin-bottom: 30px;
 	text-align: center;
+	border-radius: 2px;
+	border: none;
     transition: .3s ease-in-out;
 }
 .card.module:hover{
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.418);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.233);
 }
 .card.module h5 {
 	margin-top: 20px;
 }
 
+
 .custom-primary-bg {
-	background-color: #007bff; /* Your custom primary color */
+	background-color: #4E87B2; /* Custom primary color */
+	color: #fff; /* Text color */
 }
 
 .custom-success-bg {
-	background-color: #28a745; /* Your custom success color */
+	background-color: #66BB6A; /* Custom success color */
+	color: #fff; /* Text color */
 }
 
 .custom-info-bg {
-	background-color: #17a2b8; /* Your custom info color */
+	background-color: #5DA9E9; /* Custom info color */
+	color: #fff; /* Text color */
 }
 
 .custom-secondary-bg {
-	background-color: #6c757d; /* Your custom secondary color */
+	background-color: #757575; /* Custom secondary color */
+	color: #fff; /* Text color */
 }
 
 .custom-warning-bg {
-	background-color: #ffc107; /* Your custom warning color */
+	background-color: #FFC107; /* Custom warning color */
+	color: #fff; /* Text color */
 }
 
 .custom-danger-bg {
-	background-color: #dc3545; /* Your custom danger color */
+	background-color: #E53935; /* Custom danger color */
+	color: #fff; /* Text color */
 }
+
+
+
 
 .list-unstyled li a{
 	text-decoration: none;
